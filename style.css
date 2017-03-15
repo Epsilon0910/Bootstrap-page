@@ -1,0 +1,179 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Mar, 2017, 1:17:17 PM
+    Author     : charchitjd
+*/
+/****************************************************
+  * Custom CSS for this website 
+  *****************************************************/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+    position: relative; 
+}
+p {font-size: 16px;}
+.margin {margin-bottom: 45px;}
+.custom-navbar {
+    background-color: rgba(0,0,0,0.5);
+    /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 50px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c ;
+}
+
+.custom-navbar.opaque {
+    background-color: black;
+    height: 50px;
+    transition: background-color .5s ease 0s;
+}
+.navbar {
+
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.banner {
+    background: url("images/bg2.jpg") no-repeat;
+    background-attachment: fixed;
+    min-height: 550px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+}
+
+.banner h1,
+.banner p {
+    color: white;
+}
+
+.banner .row {
+    margin-top: 200px;
+}
+
+
+.scroll-down {
+    opacity: 1;
+    -webkit-transition: all .5s ease-in 3s;
+    transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -16px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #FFF;
+    background-size: 14px auto;
+    border-radius: 50%;
+    z-index: 2;
+    -webkit-animation: bounce 2s infinite 2s;
+    animation: bounce 2s infinite 2s;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid white;
+    border-width: 0px 0 2px 2px;
+}
+
+@keyframes bounce {
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    60% {
+        -webkit-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+}
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+footer{
+    padding-top: 70px;
+
+    background-color: #2f2f2f;
+    color: #fff;
+}
+
+#projectsection{
+    padding-top:50px;
+    padding-bottom: 70px;
+    background-color: #010101;
+    color: #f5f6f7;
+}
+
+#findmesection{
+    color: #5a5a5a;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#teamsection{
+    background-image: url("images/web-backgrounds-1.jpg");
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #4281c1;
+    color: #fff;
+}
+#teamsection img{
+    height: 350px;
+}
+.w3-content{
+    height: 400px;
+}
+
+.w3-content img{
+    height: 350px;
+}
+
+.mySlides {display:none}
+.demo {cursor:pointer}
